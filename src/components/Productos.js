@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom';
 import { ProductConsumer } from '../Context';
 import PropTypes from 'prop-types';
 
+
 class Productos extends Component {
     render() {
         const {id,title,img,price,inCart} = this.props.product;
